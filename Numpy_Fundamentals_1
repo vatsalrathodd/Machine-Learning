@@ -1,0 +1,35 @@
+import numpy as np
+
+a = np.array([1, 2, 3])
+print(a)
+a.shape # to see how many rows and cols aare there in our column
+a.ndim # to find dimensions
+
+###################################################
+
+import numpy as np
+
+a2 = np.array([[1,2,3],[4,5,6]])
+print(a2)
+a2.shape
+# a2.ndim
+
+#######################################
+
+a3 = ([ [[1,2] , [3,4]] , [[5,6] , [7,8]]])
+print(a3)
+
+################## To reshape an array #####################
+
+np.arange(16).reshape(2,2,2,2)
+
+################## Arranging and reshaping array ############
+
+arr = (np.arange(12).reshape(3,4))
+print(arr)
+arr.shape
+# arr.ndim
+
+arr = (np.arange(144).reshape(3,4,3,4))
+print(arr)
+
